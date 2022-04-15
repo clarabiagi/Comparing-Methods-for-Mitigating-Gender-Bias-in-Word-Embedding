@@ -1,7 +1,7 @@
 # Gender-Bias-Thesis
 Analysis of gender bias in word embedding
 
-The folder 5TasksGG contains code and data to perform the 5 tasks proposed by Gonen and Goldberg. Theese tasks measure the bias that remains after the method to debias have been applied.
+The folder 5TasksGG contains code and data to perform the 5 tasks proposed by Gonen and Goldberg. These tasks measure the bias that remains after the method to debias have been applied.
 
 The [source folder](../5TasksGG/source) contains the code used to perform the tasks. 
 "save_embeds.ipynb" produce the vocabulary and the words vectors from an embdedding.
