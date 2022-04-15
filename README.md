@@ -4,8 +4,11 @@ Analysis of gender bias in word embedding
 The folder 5TasksGG contains code and data to perform the 5 tasks proposed by Gonen and Goldberg. These tasks measure the bias that remains after the method to debias have been applied.
 
 The [source folder](../5TasksGG/source) contains the code used to perform the tasks. 
+
 "save_embeds.ipynb" produce the vocabulary and the words vectors from an embdedding.
-"remaining_bias.ipynb" uses vocabulary and embedding to perferm the 5 tasks.
+
+"remaining_bias.ipynb" uses vocabulary and embedding to perform the 5 tasks.
+
 I briefly recall here which are the tasks as they are presented in the [paper](https://arxiv.org/abs/1903.03862)
 1. **Male- and female-biased words cluster together:** the 500 most biased words (both male and female) are taken and 2 clusters are created: the more the clusters align with gender, the more the bias is still present in the embedding
 2. **Bias-by-Projection correlats to bias-by-neighbours:** the original measure of bias proposed by Bolukbasi et al. is compared to the percentage of male/female biased words among the k-nearest-neighbours: the higher the correlation, the more the bias is still present
