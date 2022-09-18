@@ -20,7 +20,7 @@ The aim of this work is to compare different methods for removing gender bias fr
 Two different combinations are also considered in the analysis:
  - GP-GN GloVe
  download [here](https://drive.google.com/file/d/1Rn--1pxjBhyp5os7zw75VB-YQUHXcfgF/view)
- - HSR-RAN GloVe
+ - HSR-RAN GloVe, obtained by running 
  
 To compare all the debiased versione of the GloVe the following measures are considered:
 - 5 tasks presented by Gonen and Golbderg in [Lipstick on a pig_debiasing methods cover up systematic gender bias in word embedding](https://arxiv.org/abs/1903.03862)
@@ -28,11 +28,11 @@ To compare all the debiased versione of the GloVe the following measures are con
 - word similarity tasks
 - semantic textual similarity tasks 
 
-Analysis of gender bias in word embedding
 
-The folder 5TasksGG contains code and data to perform the 5 tasks proposed by Gonen and Goldberg. These tasks measure the bias that remains after the method to debias have been applied.
+## 5 tasks
+The folder 5TasksGG contains code to perform the 5 tasks proposed by Gonen and Goldberg. These tasks measure the bias that remains after the method to debias have been applied.
 
-The [source folder](./5TasksGG/source) contains the code used to perform the tasks. 
+The [source folder](./5TasksGG/source) contains the code used to perform the tasks, which is a replication of the original code by [Gonen and Goldberg](https://github.com/gonenhila/gender_bias_lipstick)
 
 "save_embeds.ipynb" produce the vocabulary and the words vectors from an embdedding.
 
@@ -44,6 +44,5 @@ I briefly recall here which are the tasks as they are presented in the [paper](h
 3. **Profession:**  they take the list of professions creted by Bolukbasi et al. and plot them in a graph with the original bias on the X and the number of male neighbours on the Y, before and after debiasing. There should not be correlation between the 2 variables on the axis if the bias is not present
 4. **Association between female/male and female/male-stereotyped words:** it is a replication of the gender-related experiments from Caliskan et al. (2017). They evaluate the association between female/male names and family and career words, between female/male concept and arts and mathematic words and between female/male concept and art and science words.
 5. **Classifying previously female- and male-biased words:** they take the 5000 most biased words according to the original bias and train a RBF-kernel SVM classifier on a random sample of 1000 of them to predict gender and evaluate its generalization on the remaining 4000 
-
 
 
