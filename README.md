@@ -1,4 +1,27 @@
-# Gender-Bias-Thesis
+# Comparing Methods for Mitigating Gender Bias in Word Embedding
+This repository contains the source code for the results presented in the article [Comparing Methods for Mitigating Gender Bias in Word Embedding](), which will be presented at HICCS-56. 
+Here is a more extensive version of the analysis, which includes everything described in my [thesis](). 
+
+I recall that the aim of this work is to compare different methods for removing gender bias from non contextualized word embedding. 
+[GloVe](https://drive.google.com/file/d/1jrbQmpB5ZNH4w54yujeAvNFAfVEG0SuE/view) is the word embedding considered for the analysis and 6 methods for reducing bias are compared:
+ - [Hard Debiasing (HD GloVe)](https://arxiv.org/abs/1607.06520)
+
+ - [Gender Nautral GloVe (GN Glove)](https://arxiv.org/abs/1809.01496)
+ download [here](https://drive.google.com/file/d/1v82WF43w-lE-vpZd0JC1K8WYZQkTy_ii/view)
+ - [Half-Sibling regression (HSR GloVe)](https://arxiv.org/abs/1911.10787)
+ download [here](https://drive.google.com/file/d/1w7tl3xSg69L1zURTpQ6qDg0uXab_XKFw/view)
+ - [Gender-Preserving (GP gloVe)](https://arxiv.org/abs/1906.00742)
+   download [here](https://drive.google.com/file/d/12VK2-BpLAg_-VPVl_wcLBZbzd9wcwyqN/view)
+ - [Double-Hard Debias (DHD GloVe)](https://arxiv.org/abs/1906.00742)
+ 
+ - [Repulsion-attraction-Neutralisation (RAN GloVe)](https://arxiv.org/abs/2006.01938)
+ download [here](https://drive.google.com/drive/folders/14yebEnP4kXHsTisfbeWxzo0J42O54QtD)
+Two different combinations are also considered in the analysis:
+ - GP-GN GloVe
+ download [here](https://drive.google.com/file/d/1Rn--1pxjBhyp5os7zw75VB-YQUHXcfgF/view)
+ - HSR-RAN GloVe
+ 
+
 Analysis of gender bias in word embedding
 
 The folder 5TasksGG contains code and data to perform the 5 tasks proposed by Gonen and Goldberg. These tasks measure the bias that remains after the method to debias have been applied.
