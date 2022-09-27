@@ -5,7 +5,7 @@ Here is a more extensive version of the analysis, which includes everything desc
 The aim of this work is to compare different methods for removing gender bias from non contextualized word embedding. 
 [GloVe](https://nlp.stanford.edu/projects/glove/)(download pretrained word embedding [here](https://drive.google.com/file/d/1jrbQmpB5ZNH4w54yujeAvNFAfVEG0SuE/view)) is the word embedding considered for the analysis and 6 methods for reducing bias are compared:
  - [Hard Debiasing (HD GloVe)](https://arxiv.org/abs/1607.06520)
-
+download [here](https://drive.google.com/drive/u/0/my-drive)
  - [Gender Nautral GloVe (GN Glove)](https://arxiv.org/abs/1809.01496)
  download [here](https://drive.google.com/file/d/1v82WF43w-lE-vpZd0JC1K8WYZQkTy_ii/view)
  - [Half-Sibling regression (HSR GloVe)](https://arxiv.org/abs/1911.10787)
