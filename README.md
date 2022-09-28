@@ -50,3 +50,10 @@ The average gender bias is computed as well in "remaining_bias.ipynb". Tables an
 The [results folder](./5TasksGG/results) contains results for each methods.
 The [data folder](./5TasksGG/data) contains the lists needed for the analysis.
 
+## SemBias
+To evaluate gender information in the word embedding.
+"Sembias.ipynb" contains code for obtaining results with the SemBias dataset. 
+"SemBias.R" contains code for obtaining plots.
+
+
+
