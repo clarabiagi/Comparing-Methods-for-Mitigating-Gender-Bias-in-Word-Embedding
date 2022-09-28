@@ -64,7 +64,7 @@ The folder contains:
 - "SemBias.txt" is the dataset.
 - plots of the results of all debiasing methods
 
-##Word Similarity (WS) and Semantic Textual Similarity (STS) tasks
+## Word Similarity (WS) and Semantic Textual Similarity (STS) tasks
 To evaluate the quality of the word embeddings.
 The folder contains:
 - code for STS ("word_similarity.ipynb") and WS (
