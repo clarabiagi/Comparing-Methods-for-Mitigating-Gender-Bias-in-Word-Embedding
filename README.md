@@ -5,7 +5,7 @@ Here is a more extensive version of the analysis, which includes everything desc
 The aim of this work is to compare different methods for removing gender bias from non contextualized word embedding. 
 [GloVe](https://nlp.stanford.edu/projects/glove/)(download pretrained word embedding [here](https://drive.google.com/file/d/1jrbQmpB5ZNH4w54yujeAvNFAfVEG0SuE/view)) is the word embedding considered for the analysis and 6 methods for reducing bias are compared:
  - [Hard Debiasing (HD GloVe)](https://arxiv.org/abs/1607.06520)
-download [here](https://drive.google.com/drive/u/0/my-drive)
+download [here]
  - [Gender Nautral GloVe (GN Glove)](https://arxiv.org/abs/1809.01496)
  download [here](https://drive.google.com/file/d/1v82WF43w-lE-vpZd0JC1K8WYZQkTy_ii/view)
  - [Half-Sibling regression (HSR GloVe)](https://arxiv.org/abs/1911.10787)
@@ -41,8 +41,12 @@ The [source folder](./5TasksGG/source) contains the code used to perform the tas
 I briefly recall here which are the tasks as they are presented in the [paper](https://arxiv.org/abs/1903.03862)
 1. **Male- and female-biased words cluster together:** the 500 most biased words (both male and female) are taken and 2 clusters are created: the more the clusters align with gender, the more the bias is still present in the embedding
 2. **Bias-by-Projection correlats to bias-by-neighbours:** the original measure of bias proposed by Bolukbasi et al. is compared to the percentage of male/female biased words among the k-nearest-neighbours: the higher the correlation, the more the bias is still present
-3. **Profession:**  they take the list of professions creted by Bolukbasi et al. and plot them in a graph with the original bias on the X and the number of male neighbours on the Y, before and after debiasing. There should not be correlation between the 2 variables on the axis if the bias is not present
+3. **Profession:**  they take the list of professions creted by Bolukbasi et al. and plot them in a graph with the original bias on the X and the number of male neighbours on the Y, before and after debiasing. There should not be correlation between the 2 variables on the axis if the bias is not present. In this analysis a list of sports and a list of adjective are also considered.
 4. **Association between female/male and female/male-stereotyped words:** it is a replication of the gender-related experiments from Caliskan et al. (2017). They evaluate the association between female/male names and family and career words, between female/male concept and arts and mathematic words and between female/male concept and art and science words.
 5. **Classifying previously female- and male-biased words:** they take the 5000 most biased words according to the original bias and train a RBF-kernel SVM classifier on a random sample of 1000 of them to predict gender and evaluate its generalization on the remaining 4000 
 
+The average gender bias is computed as well.
+
+The [results folder](./5TasksGG/results) contains results for each methods.
+The [data folder](./5TasksGG/data) contains the lists needed for the analysis.
 
