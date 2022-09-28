@@ -52,7 +52,7 @@ The folder is structured as follows:
 
 - Average_bias contains results for the average direct bias. It contains csv for each method with the bias for each word in the vocabulary and a csv file with the average and standard deviation of each method. It contains also plots with the results and the code for obtaining them ("biasMF.R" and "means.ipynb")
 - Clustering contains results for the "Male- and female-biased words cluster together" task. It contains clusters for standard GloVe and for each method.
-. Profession contains results for the "Profession" task. It contains results with the lists of professions, adjectives and sports for each method and for the standard GloVe.
+- Profession contains results for the "Profession" task. It contains results with the lists of professions, adjectives and sports for each method and for the standard GloVe.
 
 3. The [data folder](./5TasksGG/data) contains the lists needed for the analysis.
 
