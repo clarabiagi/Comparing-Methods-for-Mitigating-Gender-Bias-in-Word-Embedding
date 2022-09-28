@@ -45,7 +45,7 @@ I briefly recall here which are the tasks as they are presented in the [paper](h
 4. **Association between female/male and female/male-stereotyped words:** it is a replication of the gender-related experiments from Caliskan et al. (2017). They evaluate the association between female/male names and family and career words, between female/male concept and arts and mathematic words and between female/male concept and art and science words.
 5. **Classifying previously female- and male-biased words:** they take the 5000 most biased words according to the original bias and train a RBF-kernel SVM classifier on a random sample of 1000 of them to predict gender and evaluate its generalization on the remaining 4000 
 
-The average gender bias is computed as well.
+The average gender bias is computed as well in "remaining_bias.ipynb". Tables and plots showing the average bias are created in "means.ipynb"
 
 The [results folder](./5TasksGG/results) contains results for each methods.
 The [data folder](./5TasksGG/data) contains the lists needed for the analysis.
