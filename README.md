@@ -67,8 +67,8 @@ The folder contains:
 ## Word Similarity (WS) and Semantic Textual Similarity (STS) tasks
 To evaluate the quality of the word embeddings.
 The folder contains:
-- code for STS ("word_similarity.ipynb") and WS (
-- the data to perform STS (stsbenchmark) and WS (wordSimData)
+- code for STS ("STS.ipynb") and WS ("word_similarity.ipynb")
+- data to perform STS (stsbenchmark) and WS (wordSimData)
 - plots of the results of all debiasing methods 
 
 
