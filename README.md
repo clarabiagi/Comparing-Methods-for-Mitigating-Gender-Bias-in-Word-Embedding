@@ -20,7 +20,7 @@ download [here](https://drive.google.com/drive/u/0/my-drive)
 Two different combinations of methods are also considered in the analysis:
  - GP-GN GloVe
  download [here](https://drive.google.com/file/d/1Rn--1pxjBhyp5os7zw75VB-YQUHXcfgF/view)
- - HSR-RAN GloVe, obtained by running 
+ - HSR-RAN GloVe, obtained by running 'HSR-GloVe_Gender Direction Relation_&_Lexical- and Sentence-Level Evaluation'. This is obtained simply by running the [HSR method realesed by the authors](https://github.com/KunkunYang/GenderBiasHSR) but with the RAN-GloVe as original word embedding.
  
 To compare all the debiased versione of the GloVe the following measures are considered:
 - Average direct bias
