@@ -1,6 +1,6 @@
 # Comparing Methods for Mitigating Gender Bias in Word Embedding
 This repository contains the source code for the paper [Comparing Methods for Mitigating Gender Bias in Word Embedding](), which will be presented at HICCS-56. 
-Here is a more extensive version of the analysis, which includes everything described in my [thesis](). 
+Here is a more extensive version of the analysis, which includes everything described in my [thesis](https://github.com/clarabiagi/Thesis). 
 
 The aim of this work is to compare different methods for removing gender bias from non contextualized word embedding. 
 [GloVe](https://nlp.stanford.edu/projects/glove/)(download pretrained word embedding [here](https://drive.google.com/file/d/1jrbQmpB5ZNH4w54yujeAvNFAfVEG0SuE/view)) is the word embedding considered for the analysis and 6 methods for reducing bias are compared:
