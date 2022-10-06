@@ -8,7 +8,7 @@ The pretarained GloVe word embedding can be dowloaded [here](https://drive.googl
 
 6 methods for reducing bias are compared:
  - [Hard Debiasing (HD GloVe)](https://arxiv.org/abs/1607.06520)
-download [here](https://drive.google.com/drive/u/0/my-drive)
+download [here](https://drive.google.com/file/d/1QY3ew_nZl3p6lNiYaWMau0-IfVpyIsLB/view?usp=sharing)
  - [Gender Nautral GloVe (GN Glove)](https://arxiv.org/abs/1809.01496)
  download [here](https://drive.google.com/file/d/1v82WF43w-lE-vpZd0JC1K8WYZQkTy_ii/view)
  - [Half-Sibling regression (HSR GloVe)](https://arxiv.org/abs/1911.10787)
