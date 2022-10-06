@@ -45,24 +45,23 @@ The **Bias** folder contains code to perform the 5 tasks and to compute the aver
 
 1. The [source](./Bias/source) folder contains the code used to perform the tasks, which is a replication of the original code by [Gonen and Goldberg](https://github.com/gonenhila/gender_bias_lipstick). It contains:
 
-- [save_embeds.ipynb](https://github.com/clarabiagi/Gender-Bias-Thesis/blob/main/Bias/source/save_embeds.ipynb): produces the vocabulary and the words vectors from an embdedding.
+- [save_embeds.ipynb](./Bias/source/save_embeds.ipynb): produces the vocabulary and the words vectors from an embdedding.
 
-- [remaining_bias.ipynb](https://github.com/clarabiagi/Gender-Bias-Thesis/blob/main/Bias/source/remaining_bias.ipynb): uses vocabulary and embedding to perform the 5 tasks. The average gender bias is computed as well. 
+- [remaining_bias.ipynb](./Bias/source/remaining_bias.ipynb): uses vocabulary and embedding to perform the 5 tasks. The average gender bias is computed as well. 
 
 2. The [Results](./Bias/results) folder contains all the results, categorized in the following folders:
 
-- [Average_bias](./Bias/results/Average_bias) contains results for the average direct bias. It contains csv for each method with the bias for each word in the vocabulary and a csv file with the average and standard deviation of each method. It contains also plots with the results and the code for obtaining them ("biasMF.R" and "means.ipynb")
-- [Clustering](./Bias/results/Clustering) contains results for the "Male- and female-biased words cluster together" task. It contains clusters for standard GloVe and for each method.
-- [Profession](./Bias/results/Profession) contains results for the "Profession" task. It contains results with the lists of professions, adjectives and sports for each method and for the standard GloVe.
+- [Average_bias](./Bias/results/Average_bias) contains results for the average direct bias. For each method, it contains a csv file that includes the bias for each word in the vocabulary and a csv file that reports the average and standard deviation. It also contains plots with the results and code for obtaining them (i.e. "biasMF.R" and "means.ipynb")
+- [Clustering](./Bias/results/Clustering) contains results for the "Male- and female-biased words cluster together" task. It contains clusters for the standard GloVe and the other considered methods.
+- [Profession](./Bias/results/Profession) contains results for the "Profession" task. It contains results with the lists of professions, adjectives and sports for the standard GloVe and the other methods.
 
-3. The [data](./5TasksGG/data) folder contains the lists needed for the analysis.
+3. The [data](./5TasksGG/data) folder contains the lists of professions, adjectives, sports and gendered words needed for the analysis. 
 
 ## SemBias task
-To evaluate gender information in the word embedding.
-The folder contains:
-- "Sembias.ipynb" contains code for obtaining results with the SemBias dataset. 
-- "SemBias.R" contains code for obtaining plots.
-- "SemBias.txt" is the dataset.
+The **SemBias** folder contains code to evaluate gender information in the word embedding:
+- [Sembias.ipynb](./SemBias/Sembias.ipynb): contains code for obtaining results with the SemBias dataset. 
+- [SemBias.R](./SemBias/SemBias.R): contains code for obtaining plots.
+- [SemBias.txt](./SemBias/SemBias.txt): is the dataset.
 - plots of the results of all debiasing methods
 
 ## Word Similarity (WS) and Semantic Textual Similarity (STS) tasks
