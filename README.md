@@ -49,13 +49,13 @@ The **Bias** folder contains code to perform the 5 tasks and to compute the aver
 
 - [remaining_bias.ipynb](https://github.com/clarabiagi/Gender-Bias-Thesis/blob/main/Bias/source/remaining_bias.ipynb): uses vocabulary and embedding to perform the 5 tasks. The average gender bias is computed as well. 
 
-2. [Results](./Bias/results) contains all the results, in plots and tables.
+2. The [Results](./Bias/results) folder contains all the results, categorized in the following folders:
 
-- Average_bias contains results for the average direct bias. It contains csv for each method with the bias for each word in the vocabulary and a csv file with the average and standard deviation of each method. It contains also plots with the results and the code for obtaining them ("biasMF.R" and "means.ipynb")
-- Clustering contains results for the "Male- and female-biased words cluster together" task. It contains clusters for standard GloVe and for each method.
-- Profession contains results for the "Profession" task. It contains results with the lists of professions, adjectives and sports for each method and for the standard GloVe.
+- [Average_bias](./Bias/results/Average_bias) contains results for the average direct bias. It contains csv for each method with the bias for each word in the vocabulary and a csv file with the average and standard deviation of each method. It contains also plots with the results and the code for obtaining them ("biasMF.R" and "means.ipynb")
+- [Clustering](./Bias/results/Clustering) contains results for the "Male- and female-biased words cluster together" task. It contains clusters for standard GloVe and for each method.
+- [Profession](./Bias/results/Profession) contains results for the "Profession" task. It contains results with the lists of professions, adjectives and sports for each method and for the standard GloVe.
 
-3. The [data folder](./5TasksGG/data) contains the lists needed for the analysis.
+3. The [data](./5TasksGG/data) folder contains the lists needed for the analysis.
 
 ## SemBias task
 To evaluate gender information in the word embedding.
