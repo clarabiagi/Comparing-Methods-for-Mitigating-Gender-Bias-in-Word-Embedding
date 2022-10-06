@@ -38,7 +38,7 @@ To compare all the methods, the following measures have been considered:
 
 
 ## 5 tasks and average direct bias
-The folder 5TasksGG contains code to perform the 5 tasks proposed by Gonen and Goldberg and to compute the average direct bias. The 5 tasks measure the bias that remains after the method to debias have been applied. 
+The folder **Bias** contains code to perform the 5 tasks proposed by Gonen and Goldberg and to compute the average direct bias. The 5 tasks measure the bias that remains after the method to debias have been applied. 
 
 I briefly recall here which are the tasks as they are presented in the [paper](https://arxiv.org/abs/1903.03862)
 1. **Male- and female-biased words cluster together:** the 500 most biased words (both male and female) are taken and 2 clusters are created: the more the clusters align with gender, the more the bias is still present in the embedding
