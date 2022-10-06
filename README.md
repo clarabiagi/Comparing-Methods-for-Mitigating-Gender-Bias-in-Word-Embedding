@@ -23,7 +23,10 @@ download [here](https://drive.google.com/file/d/1QY3ew_nZl3p6lNiYaWMau0-IfVpyIsL
    download [here](https://drive.google.com/file/d/1Rn--1pxjBhyp5os7zw75VB-YQUHXcfgF/view)
    
 Furthermore, we have combined different methods to define a new technique:
- - HSR-RAN GloVe, obtained by running 'HSR-GloVe_Gender Direction Relation_&_Lexical- and Sentence-Level Evaluation'. This is obtained simply by running the [HSR method realesed by the authors](https://github.com/KunkunYang/GenderBiasHSR) but with the RAN-GloVe as original word embedding.
+ - HSR-RAN GloVe
+ download [here]()
+ 
+The HSR-RAN GloVe has been obtained by running ['HSR-GloVe_Gender Direction Relation_&_Lexical- and Sentence-Level Evaluation'](https://github.com/KunkunYang/GenderBiasHSR), considering RAN GloVe as the input word embedding.
 
  
 To compare all the debiased versione of the GloVe the following measures are considered:
