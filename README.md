@@ -41,13 +41,13 @@ To compare all the methods, the following measures have been considered and are 
 
 
 ## Average direct bias and 5 Tasks 
-The folder **Bias** contains code to perform the 5 tasks and to compute the average direct bias. It is structured as follows:
+The **Bias** folder contains code to perform the 5 tasks and to compute the average direct bias. It is structured as follows:
 
-1. The [source folder](./Bias/source) contains the code used to perform the tasks, which is a replication of the original code by [Gonen and Goldberg](https://github.com/gonenhila/gender_bias_lipstick). It contains:
+1. The [source](./Bias/source) folder contains the code used to perform the tasks, which is a replication of the original code by [Gonen and Goldberg](https://github.com/gonenhila/gender_bias_lipstick). It contains:
 
-- "save_embeds.ipynb" produce the vocabulary and the words vectors from an embdedding.
+- [save_embeds.ipynb](https://github.com/clarabiagi/Gender-Bias-Thesis/blob/main/Bias/source/save_embeds.ipynb): produces the vocabulary and the words vectors from an embdedding.
 
-- "remaining_bias.ipynb" uses vocabulary and embedding to perform the 5 tasks. The average gender bias is computed as well in here. 
+- [remaining_bias.ipynb](https://github.com/clarabiagi/Gender-Bias-Thesis/blob/main/Bias/source/remaining_bias.ipynb): uses vocabulary and embedding to perform the 5 tasks. The average gender bias is computed as well. 
 
 2. [Results](./Bias/results) contains all the results, in plots and tables.
 
