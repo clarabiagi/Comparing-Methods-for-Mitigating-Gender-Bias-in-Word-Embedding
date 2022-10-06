@@ -29,7 +29,7 @@ Furthermore, we have combined different methods to define a new technique:
 The HSR-RAN GloVe has been obtained by running ['HSR-GloVe_Gender Direction Relation_&_Lexical- and Sentence-Level Evaluation'](https://github.com/KunkunYang/GenderBiasHSR), considering RAN GloVe as the input word embedding.
 
  
-To compare all the debiased versione of the GloVe the following measures are considered:
+To compare all the debiased versions of the GloVe the following measures are considered:
 - Average direct bias
 - 5 tasks presented by Gonen and Golbderg in [Lipstick on a pig_debiasing methods cover up systematic gender bias in word embedding](https://arxiv.org/abs/1903.03862)
 - SemBias  data set, presented by [Zhao et al.](https://arxiv.org/abs/1809.01496), download [here](https://github.com/uclanlp/gn_glove/blob/master/SemBias/SemBias)
