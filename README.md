@@ -1,7 +1,7 @@
 # Comparing Methods for Mitigating Gender Bias in Word Embedding
 This repository contains the source code for the paper [Comparing Methods for Mitigating Gender Bias in Word Embedding](), which will be presented at [HICCS-56](https://hicss.hawaii.edu/). Other information can be found in my [thesis](https://github.com/clarabiagi/Thesis). 
 
-The aim of this work is to compare different methods for removing gender bias from non contextualized word embedding. 
+Word embedding captures the semantic and syntactic meaning of words into dense vectors. It contains biases learning from data that include constructs, cultural stereotypes, and inequalities of the society. Many methods for removing bias in traditional word embedding have been proposed. In this study we use the original GloVe word embedding and perform a comparison among debiasing methods built on top of GloVe in order to determine which methods perform the best removing bias. We have defined half-sibling regression, repulsion attraction neutralization GloVe method and compared it with gender-preserving, gender-neutral GloVe method and other debiased methods. According to our results, no methods outperform in all the analyses and completely remove gender information from gender neutral words. Furthermore, all the debiasing methods perform better than the original GloVe.
 [GloVe](https://nlp.stanford.edu/projects/glove/)(download pretrained word embedding [here](https://drive.google.com/file/d/1jrbQmpB5ZNH4w54yujeAvNFAfVEG0SuE/view)) is the word embedding considered for the analysis and 6 methods for reducing bias are compared:
  - [Hard Debiasing (HD GloVe)](https://arxiv.org/abs/1607.06520)
 download [here](https://drive.google.com/drive/u/0/my-drive)
