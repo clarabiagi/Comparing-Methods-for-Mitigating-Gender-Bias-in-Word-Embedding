@@ -6,7 +6,7 @@ Word embedding captures the semantic and syntactic meaning of words into dense v
 The pretarained GloVe word embedding can be dowloaded [here](https://drive.google.com/file/d/1jrbQmpB5ZNH4w54yujeAvNFAfVEG0SuE/view).
 
 
-6 methods for reducing bias are compared:
+6 methods for reducing bias have been compared:
  - [Hard Debiasing (HD GloVe)](https://arxiv.org/abs/1607.06520)
 download [here](https://drive.google.com/file/d/1QY3ew_nZl3p6lNiYaWMau0-IfVpyIsLB/view?usp=sharing)
  - [Gender Nautral GloVe (GN Glove)](https://arxiv.org/abs/1809.01496)
@@ -18,12 +18,13 @@ download [here](https://drive.google.com/file/d/1QY3ew_nZl3p6lNiYaWMau0-IfVpyIsL
  - [Double-Hard Debias (DHD GloVe)](https://arxiv.org/abs/1906.00742)
    download [here](https://drive.google.com/file/d/15OTHP-n-O669OjSX433H6Sh-XjdSpTsY/view?usp=sharing)
  - [Repulsion-attraction-Neutralisation (RAN GloVe)](https://arxiv.org/abs/2006.01938)
- download [here](https://drive.google.com/drive/folders/14yebEnP4kXHsTisfbeWxzo0J42O54QtD)
- 
-Two different combinations of methods are also considered in the analysis:
- - GP-GN GloVe
- download [here](https://drive.google.com/file/d/1Rn--1pxjBhyp5os7zw75VB-YQUHXcfgF/view)
+   download [here](https://drive.google.com/drive/folders/14yebEnP4kXHsTisfbeWxzo0J42O54QtD)
+  - GP-GN GloVe
+   download [here](https://drive.google.com/file/d/1Rn--1pxjBhyp5os7zw75VB-YQUHXcfgF/view)
+   
+Furthermore, we have combined different methods to define a new technique:
  - HSR-RAN GloVe, obtained by running 'HSR-GloVe_Gender Direction Relation_&_Lexical- and Sentence-Level Evaluation'. This is obtained simply by running the [HSR method realesed by the authors](https://github.com/KunkunYang/GenderBiasHSR) but with the RAN-GloVe as original word embedding.
+
  
 To compare all the debiased versione of the GloVe the following measures are considered:
 - Average direct bias
