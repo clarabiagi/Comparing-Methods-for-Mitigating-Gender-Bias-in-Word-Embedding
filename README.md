@@ -16,7 +16,7 @@ download [here](https://drive.google.com/file/d/1QY3ew_nZl3p6lNiYaWMau0-IfVpyIsL
  - [Gender-Preserving (GP gloVe)](https://arxiv.org/abs/1906.00742)
    download [here](https://drive.google.com/file/d/12VK2-BpLAg_-VPVl_wcLBZbzd9wcwyqN/view)
  - [Double-Hard Debias (DHD GloVe)](https://arxiv.org/abs/1906.00742)
- 
+   download [here](https://drive.google.com/file/d/15OTHP-n-O669OjSX433H6Sh-XjdSpTsY/view?usp=sharing)
  - [Repulsion-attraction-Neutralisation (RAN GloVe)](https://arxiv.org/abs/2006.01938)
  download [here](https://drive.google.com/drive/folders/14yebEnP4kXHsTisfbeWxzo0J42O54QtD)
  
