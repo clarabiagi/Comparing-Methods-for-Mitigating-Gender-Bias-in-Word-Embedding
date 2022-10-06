@@ -31,12 +31,13 @@ The HSR-RAN GloVe has been obtained by running ['HSR-GloVe_Gender Direction Rela
  
 To compare all the methods, the following measures have been considered and are described later:
 
----|---
-Average direct bias|Bias
-5 tasks presented by Gonen and Golbderg in [Lipstick on a pig_debiasing methods cover up systematic gender bias in word embedding](https://arxiv.org/abs/1903.03862)|Bias
-SemBias  data set, presented by [Zhao et al.](https://arxiv.org/abs/1809.01496), download [here](https://github.com/uclanlp/gn_glove/blob/master/SemBias/SemBias)|Sembias
-word similarity tasks|WS_STS
-semantic textual similarity tasks|WS_STS
+|Method|Folder|
+|---|---|
+|Average direct bias|Bias|
+|5 tasks presented by Gonen and Golbderg in [Lipstick on a pig_debiasing methods cover up systematic gender bias in word embedding](https://arxiv.org/abs/1903.03862)|Bias|
+|SemBias  data set, presented by [Zhao et al.](https://arxiv.org/abs/1809.01496), download [here](https://github.com/uclanlp/gn_glove/blob/master/SemBias/SemBias)|Sembias|
+|word similarity tasks|WS_STS|
+|semantic textual similarity tasks|WS_STS|
 
 
 ## 5 tasks and average direct bias
