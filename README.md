@@ -65,10 +65,11 @@ The **SemBias** folder contains code to evaluate gender information in the word 
 - plots of the results of all debiasing methods
 
 ## Word Similarity (WS) and Semantic Textual Similarity (STS) tasks
-To evaluate the quality of the word embeddings.
-The folder contains:
-- code for STS ("STS.ipynb") and WS ("word_similarity.ipynb")
-- data to perform STS (stsbenchmark) and WS (wordSimData)
+The **WS_STS** folder contains code to evaluate the quality of the word embeddings:
+- [STS.ipynb](./WS_STS/STS.ipynb): contains code to perform the STS task
+- [word_similarity.ipynb](./WS_STS/word_similarity.ipynb): contains code to perform the WS task
+- [stsbenchmark](./WS_STS/stsbenchmark): data for the STS task
+- [wordSimData](./WS_STS/wordSimData): data for the WS task
 - plots of the results of all debiasing methods 
 
 
