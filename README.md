@@ -1,5 +1,5 @@
 # Comparing Methods for Mitigating Gender Bias in Word Embedding
-This repository contains the source code for the paper [Comparing Methods for Mitigating Gender Bias in Word Embedding](), which will be presented at HICCS-56. 
+This repository contains the source code for the paper [Comparing Methods for Mitigating Gender Bias in Word Embedding](), which will be presented at [HICCS-56](https://hicss.hawaii.edu/). 
 Here is a more extensive version of the analysis, which includes everything described in my [thesis](https://github.com/clarabiagi/Thesis). 
 
 The aim of this work is to compare different methods for removing gender bias from non contextualized word embedding. 
